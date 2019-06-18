@@ -9,9 +9,12 @@ class ApplicationController < Sinatra::Base
   	erb :index
   end
   
-  class Dog 
+  class Dog
     
-    def initialize
+    attr_accessor :name, :breed, :age
+    
+    def initialize(name, breed, age)
+      
       
     end
     
