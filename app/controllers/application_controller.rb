@@ -11,6 +11,10 @@ class ApplicationController < Sinatra::Base
   
   class Dog 
     
+    def initialize
+      
+    end
+    
   end
   
   
